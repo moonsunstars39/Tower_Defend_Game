@@ -1,4 +1,4 @@
-# tower Defense - TeamSmart
+# Tower Defense - TeamSmart
 
 ## Code Conventions
 * Create and name a new directory under tower with lower case, use hyphen to connect words
@@ -23,6 +23,9 @@ private static final double MOVE_SPEED = 20.0;
 ```
 
 ## Scrum Development
+5.2
+* The game is done, current version 1.0 -> all members
+
 4.23
 * Calculator upgrade, version 1.1 -> LiKun Li
 
