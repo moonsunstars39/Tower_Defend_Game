@@ -1,0 +1,92 @@
+#root {
+	-fx-pref-height: 720px;
+	-fx-background-image: url("/elements/command-center.png");
+}
+
+#start {
+	-fx-pref-width: 63px;
+	-fx-pref-height: 100px;
+	-fx-border-color: transparent;
+	-fx-background-color: transparent;
+	-fx-background-image: url("/elements/command-start-button.png");
+	-fx-background-radius: 0;
+	-fx-background-insets: 0, 1, 2, 3, 0;
+	-fx-border-color: transparent
+}
+
+#start:hover {
+	-fx-pref-width: 250px;
+}
+
+#start:pressed {
+	-fx-background-image: url("/elements/command-start-button-pressed.png");
+}
+
+#equip {
+	-fx-pref-width: 63px;
+	-fx-pref-height: 100px;
+	-fx-border-color: transparent;
+	-fx-background-color: transparent;
+	-fx-background-image: url("/elements/command-equip-button.png");
+	-fx-background-radius: 0;
+	-fx-background-insets: 0, 1, 2, 3, 0;
+	-fx-border-color: transparent
+}
+
+#equip:hover {
+	-fx-pref-width: 250px;
+}
+
+#equip:pressed {
+	-fx-background-image: url("/elements/command-equip-button-pressed.png");
+}
+
+#menu {
+	-fx-pref-width: 63px;
+	-fx-pref-height: 100px;
+	-fx-border-color: transparent;
+	-fx-background-color: transparent;
+	-fx-background-image: url("/elements/command-menu-button.png");
+	-fx-background-radius: 0;
+	-fx-background-insets: 0, 1, 2, 3, 0;
+	-fx-border-color: transparent
+}
+
+#menu:hover {
+	-fx-pref-width: 250px;
+}
+
+#menu:pressed {
+	-fx-background-image: url("/elements/command-menu-button-pressed.png");
+}
+
+#enemy {
+	-fx-pref-width: 63px;
+	-fx-pref-height: 100px;
+	-fx-border-color: transparent;
+	-fx-background-color: transparent;
+	-fx-background-image: url("/elements/command-enemy-button.png");
+	-fx-background-radius: 0;
+	-fx-background-insets: 0, 1, 2, 3, 0;
+	-fx-border-color: transparent
+}
+
+#enemy:hover {
+	-fx-pref-width: 250px;
+}
+
+#enemy:pressed {
+	-fx-background-image: url("/elements/command-enemy-button-pressed.png");
+}
+
+#line {
+	-fx-stroke: white;
+	-fx-stroke-width: 5px;
+}
+
+#fundsText {
+	-fx-font: 25px Tahoma;
+	-fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, white 0%, black 50%);
+	-fx-stroke: black;
+	-fx-stroke-width: 1;
+}

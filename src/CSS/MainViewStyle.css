@@ -1,0 +1,21 @@
+#root {
+	-fx-pref-height: 720px;
+	-fx-background-image: url("/background/main-background.png");
+}
+
+.button {
+	-fx-pref-width: 200px;
+	-fx-pref-height: 50px;
+	-fx-border-color: transparent;
+	-fx-background-color: transparent;
+	-fx-background-image: url("/elements/main-button.png");
+	-fx-background-radius: 0;
+	-fx-background-insets: 0, 1, 2, 3, 0;
+	-fx-font-family: "Arial";
+	-fx-text-fill: linear-gradient(#a2a2a2, white);
+	-fx-font-size: 20px;
+}
+
+.button:pressed {
+	-fx-background-image: url("/elements/main-button-pressed.png");
+}

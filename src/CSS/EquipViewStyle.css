@@ -1,0 +1,35 @@
+#towersPane>.viewport {
+	-fx-background-color: transparent;
+}
+
+#towersPane {
+	-fx-background-color: transparent;
+}
+
+#exit {
+	-fx-background-color: transparent;
+	-fx-pref-width: 144px;
+	-fx-pref-height: 51px;
+	-fx-background-image: url("/elements/exit.png");
+}
+
+#exit:pressed {
+	-fx-background-image: url("/elements/exit-pressed.png");
+}
+
+.label {
+	-fx-font-family: "Lucida Bright";
+	-fx-text-fill: black;
+	-fx-font-size: 20;
+}
+
+#info {
+	-fx-translate-x: 20;
+	-fx-translate-y: 200;
+	-fx-spacing: 5;
+}
+
+#equipInfo {
+	-fx-text-alignment: center;
+	-fx-background-color: rgba(255, 255, 255, 0.8);
+}

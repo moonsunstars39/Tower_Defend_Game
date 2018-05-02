@@ -1,0 +1,64 @@
+#cell {
+	-fx-fill: rgba(255, 255, 255, 0);
+}
+
+#exit {
+	-fx-background-color: transparent;
+	-fx-pref-width: 144px;
+	-fx-pref-height: 51px;
+	-fx-background-image: url("/elements/exit.png");
+}
+
+#exit:pressed {
+	-fx-background-image: url("/elements/exit-pressed.png");
+}
+
+#exitYes {
+	-fx-background-color: transparent;
+	-fx-pref-width: 100px;
+	-fx-pref-height: 39px;
+	-fx-background-image: url("/elements/exit-yes.png");
+}
+
+#exitYes:pressed {
+	-fx-background-image: url("/elements/exit-yes-pressed.png");
+}
+
+#exitNo {
+	-fx-background-color: transparent;
+	-fx-pref-width: 100px;
+	-fx-pref-height: 39px;
+	-fx-background-image: url("/elements/exit-no.png");
+}
+
+#exitNo:pressed {
+	-fx-background-image: url("/elements/exit-no-pressed.png");
+}
+
+#grid {
+	-fx-stroke: rgba(119, 181, 216, 0.8);
+}
+
+#topBar {
+	-fx-background-image: url("/elements/top-bar.png");
+	-fx-spacing: 0;
+	-fx-border-width: 0px 0px 2px 2px;
+	-fx-border-color: #aaaaaa;
+}
+
+#cost {
+	-fx-translate-x: 35;
+	-fx-translate-y: 95;
+	-fx-font-family: "Algerian";
+	-fx-text-fill: #05034b;
+	-fx-font-size: 16;
+}
+
+#money {
+	-fx-text-alignment: center;
+	-fx-translate-x: 35;
+	-fx-translate-y: 40;
+	-fx-font-family: "Algerian";
+	-fx-text-fill: #05034b;
+	-fx-font-size: 36;
+}
